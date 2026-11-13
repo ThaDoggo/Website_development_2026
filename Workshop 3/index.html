@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>My First HTML Page</title>
+    <link rel="stylesheet" href="styles.css">
+    </head>
+    <body>
+        <button class="transition-button">Hover me</button>
+        <style>
+        .transition-button {
+        background-color: rgb(13, 78, 99);
+        padding: 10px 20px;
+        border: none;
+        cursor: pointer;
+        transition: background-color 0.3s ease;
+      }
+      
+      .transition-button:hover {
+        background-color: rgb(131, 217, 230);
+      }
+      </style>
+        <h1>I am a Student</h1>
+        <div class="animation-box"></div>
+        <style>
+            .animation-box {
+        width: 50px;
+        height: 50px;
+        background-color: rgb(228, 70, 149);
+        position: relative;
+        animation: move 2s infinite alternate;
+      }
+      
+      @keyframes move {
+        from {
+          left: 0;
+        }
+        to {
+          left: 100px;
+        }
+      }
+        </style>
+        <p>I am studying IT. I like reading, writing, gaming, and animals.</p>
+        <img src="Kamu.jpg" alt="My dog judges you for asking for my image" width="500" height="600" class="filter-image">
+        <style>
+            .filter-image {
+        filter: grayscale(100%);
+        transition: filter 0.3s ease;
+      }
+      
+      .filter-image:hover {
+        filter: grayscale(0%);
+      }
+        </style>
+        <h2> Things to Dislike about Autumn</h2>
+        <ul class="pseudo-list">
+        <li>It's Dark</li>
+        <li>It's Wet</li>
+        <li>It's Really Dark</li>
+        <li>There Are Brown Leaves Everywhere</li>
+      </ul>
+      <style>
+        .pseudo-list li:nth-child(odd) {
+        background-color: rgb(44, 41, 41);
+      }
+      
+      .pseudo-list li:nth-child(even) {
+        background-color: rgb(80, 108, 126);
+      }
+      </style>
+        <h2> My Hobbies</h2>
+   <ul>
+       <li>Reading</li>
+       <li>Writing</li>
+       <li>Gaming</li>
+       <li>Pet care</li>
+       <li>Watching Anime</li>
+   </ul>
+   <a href="https://www.crunchyroll.com/" >You Can Also Watch Anime Here</a>
+<h2> What We Eat and What We Do for Our Food</h2>
+   <table>
+    <tr align="center">
+        <th>The Dog</th>
+        <th>The Cat</th>
+        <th> Me</th>
+    </tr>
+    <tr align="center">
+        <td> Everything</td>
+        <td> Cat Food</td>
+        <td> Human Food</td>
+    </tr>
+    <tr align="center">
+        <td> Sleep, Walk</td>
+        <td> Sleep, Purr</td>
+        <td> Work</td>
+    </tr>
+</table>  
+<h2> A Quote from Inspirobot</h2>
+<blockquote class="quote">
+        A Word Is The Opposite of Beautiful.
+      </blockquote>
+<style>
+    .quote {
+        position: relative;
+        padding-left: 20px;
+        font-style: italic;
+      }
+      
+      .quote::before {
+        content: '“';
+        font-size: 40px;
+        position: absolute;
+        left: 0;
+        top: 0;
+        color: rgb(11, 23, 61);
+      }
+</style>
+<a href="https://inspirobot.me/" >You Can Also Get Your Own Inspirobot Quote Here</a>
+<h2> A Random Form</h2> 
+    <form>
+    <label for="name">Name:</label>
+    <input type="text" id="name" name="name"><br><br>
+    <label for="email">Email:</label>
+    <input type="email" id="email" name="email"><br><br>
+    <input type="submit" value="Scream into The Void">
+    </form>
+<div class="content-box">
+  <h3>A Random Content Box Or Whatever</h3>
+  <p>This is a div element needed for a specific task.</p>
+</div>
+</body>
+</html>
