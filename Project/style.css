@@ -1,0 +1,12 @@
+body {
+  background-color: rgb(225, 241, 231);
+}
+
+h2:hover {
+  color: rgb(58, 202, 9);
+}
+
+h3:hover {
+  color: rgb(33, 110, 7);
+}
+
