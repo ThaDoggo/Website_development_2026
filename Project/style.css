@@ -1,12 +1,14 @@
-body {
-  background-color: rgb(225, 241, 231);
+h1:hover {
+  color: rgb(26, 92, 4);
 }
 
-h1:hover {
-  color: rgb(58, 202, 9);
+h1 {
+  text-shadow:
+    1px 1px 0 transparent,
+    2px 2px 2px rgb(46, 252, 128),
+    3px 3px 3px rgb(11, 34, 9);
 }
 
 h2:hover {
   color: rgb(33, 110, 7);
 }
-
